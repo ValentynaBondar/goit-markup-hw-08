@@ -1,0 +1,41 @@
+.address__item {
+    margin-top: 20px;
+    width: 231px;
+    
+  }
+  
+  .address__item:not(:first-child) {
+    margin-top: 9px;
+  }
+
+  .address__link.map {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: var(--color-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .address__link.map:hover,
+  .address__link.map:focus{  
+      color: var(--accent-color);
+  }
+
+  .address__link.contact {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+
+  .address__link.contact:hover,
+  .address__link.contact:focus{   
+      color: var(--accent-color);
+  }
+  

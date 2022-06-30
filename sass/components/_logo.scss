@@ -1,0 +1,35 @@
+.nav__logo.top{
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav__logo.web{
+     color: var(--accent-color);
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        
+    }
+.nav__logo.heder{
+    color:var(--title-text-color) ;
+
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+      
+} 
+/* лого футер*/
+
+.footer__logo {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--color-color);
+  }

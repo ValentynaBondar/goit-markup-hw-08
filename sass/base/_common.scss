@@ -1,0 +1,72 @@
+  /*основной цвет текста #757575 */
+  /* второй цвет текста: #212121 */
+  /*цвет веб текста #2196F3*/
+  /*цевт в блоке герой текста #ffffff */
+  /* цвет акцент   #2196F3; */
+  /*  цвет фона 1 #2F303A */
+  /*  цвет фона 2 #E5E5E5 */
+  /* цвет фона 3 #F5F4FA */
+ 
+
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --color-color:#ffffff;
+    --background-color:#2F303A;
+}
+
+
+
+button{
+    cursor: pointer;
+    border-radius: 4px;
+    display: inline-block;
+   
+}
+
+
+
+body {   
+background-color:var(--color-color);
+color: var(--primary-text-color),;
+font-family : Roboto, Raleway, sans-serif;
+letter-spacing : 0.03em;
+margin: 0 auto;
+}
+
+// готов
+ .container{
+   width: 100%;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   @media screen and (min-width: 450px) and (max-width: 767px) {
+    width: 480px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 768px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+ }
+
+h1,
+h2,
+h3{ 
+   font-family: Roboto;
+   color: #212121;
+  
+}
+
