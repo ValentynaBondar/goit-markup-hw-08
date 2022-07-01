@@ -88,6 +88,15 @@ background-color: #F5F4FA;
     height: 50px;
     position: relative;
     margin-left: 12px;
+    @media screen   and (min-width: 450px) and (max-width: 767px) {
+        margin-left: 125px;
+      
+        
+        }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        margin-left: 276px;
+          
+        }
     
       }
       .footer__button-icon{

@@ -95,10 +95,24 @@ background-color: rgba(45,48,58,0.8);
     line-height: 1.17;
     text-align: center;
     margin-bottom: 30px;
-     
+      
+    @media screen and (min-width: 450px) and (max-width: 767px) {
 
-        
+      
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+     
+     
+      
+    }
+  
+    @media screen and (min-width: 1200px) {
+     
+    }
+
+  
 }
+
 
 .team{
     background-color:#F5F4FA ;
@@ -107,7 +121,7 @@ background-color: rgba(45,48,58,0.8);
 }
 .img-people{
    
-    @media screen and (min-width: 450px) and (max-width: 767px) {
+    @media screen and (min-width: 450px) and (max-width: 767px){
     
       
     }
