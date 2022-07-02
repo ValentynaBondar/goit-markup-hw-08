@@ -44,22 +44,18 @@ margin: 0 auto;
 
    @media screen  and (min-width: 450px) and (max-width: 767px) {
     width: 480px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+   
     
     
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 768px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    
+   
   }
 
   @media screen and (min-width: 1200px) {
     width: 1200px;
-    padding-top: 45px;
-    padding-bottom: 45px;
+  
   }
 
  }

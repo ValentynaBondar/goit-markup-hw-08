@@ -7,8 +7,8 @@
  /*блок герой*/
 
  .section{
-    max-width: 1600px;
-    height: 600px;
+    width: 480px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
 
@@ -22,7 +22,15 @@
      
      color:var(--color-color);
      text-align: center;
-     padding: 200px 0;
+  
+     @media screen and (min-width: 1200px){
+width: 1200px;
+padding: 200px 0;
+height: 600px;
+     }
+     @media screen and (min-width: 768px) and (max-width: 1199px){
+        width: 768px;
+     }
 
    
      
@@ -36,15 +44,21 @@
      text-align: center;
 
      font-weight: 900;
-     font-size: 44px;
+     font-size: 26px;
      line-height: 1.36;
      text-transform: uppercase;
      letter-spacing: 0.06em;
-     max-width: 696px;
+    //  max-width: 696px;
      margin-left: auto;
      margin-right: auto;
+     padding-top: 118px;
      
-     
+     @media screen and (min-width: 1200px){
+        font-size: 44px;
+             }
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+               
+             }
      
     
  }
