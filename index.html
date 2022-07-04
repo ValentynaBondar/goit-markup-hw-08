@@ -57,18 +57,21 @@
 
         <div class="mob-menu">
             <div class="mob-menu__conteiner">
+                <div mob__menu-top>
             <button type="button" class="menu-close-btn" > 
             <svg class=""  width="18" height="18" >
                 <use href="./img/symbola-defs.svg#icon-close_40px" ></use>
             </svg>
         </button>
+        
         <ul class="mob-menu__list list ">
             <li class="mob-menu__item"><a href="" class="mob-menu__link link mob-menu__studio">Студия</a></li>
             <li class="mob-menu__item"><a href="./portfolio.html" class="mob-menu__link link mob-menu__portfolio">Портфолио</a></li>
             <li class="mob-menu__item"><a href="" class="mob-menu__link link mob-menu__we">Контакты</a></li>
         </ul>
+       </div>
     </nav>
-
+    <div mob__menu-bottom>
     <ul class="mob__list mob__auvto list ">
         <li class="mob__item">
    
@@ -85,6 +88,7 @@
         <li class="mob-social__item"><a href="" class="mob-social__link link">Facebook</a></li>
         <li class="mob-social__item"><a href="" class="mob-social__link link">LinkedIn</a></li>
     </ul>
+    </div>
 </div>
         </div>
     </header>
@@ -481,6 +485,7 @@
     
     </footer>
     <script src="./js/modal.js"></script>
+    <script slot="./js/menu.js"></script>
 </body>
 
 </html>
