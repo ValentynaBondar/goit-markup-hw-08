@@ -47,7 +47,7 @@
                 </svg>+38 096 111 11 11</a>
             </li>
         </ul>
-        <button type="button" class="menu-open-btn" > 
+        <button type="button" class="menu-open-btn" data-menu-open> 
             <svg class=""   width="24" height="16">
             <use href="./img/symbola-defs.svg#icon-menu_40px" ></use>
         </svg>
@@ -55,10 +55,10 @@
     </button>
         </div>
 
-        <div class="mob-menu">
+        <div class="mob-menu is-hidden" data-menu>
             <div class="mob-menu__conteiner">
-                <div mob__menu-top>
-            <button type="button" class="menu-close-btn" > 
+                <div class="mob__menu-top">
+            <button type="button" class="menu-close-btn" data-menu-close> 
             <svg class=""  width="18" height="18" >
                 <use href="./img/symbola-defs.svg#icon-close_40px" ></use>
             </svg>
@@ -70,8 +70,7 @@
             <li class="mob-menu__item"><a href="" class="mob-menu__link link mob-menu__we">Контакты</a></li>
         </ul>
        </div>
-    </nav>
-    <div mob__menu-bottom>
+    <div class="mob__menu-bottom">
     <ul class="mob__list mob__auvto list ">
         <li class="mob__item">
    
@@ -486,6 +485,7 @@
     </footer>
     <script src="./js/modal.js"></script>
     <script slot="./js/menu.js"></script>
+
 </body>
 
 </html>

@@ -197,7 +197,7 @@
  .menu-close-btn{
     margin-bottom: 8px;
     fill: #212121;
-    outline: none;
+    
 
  }
 
@@ -223,17 +223,13 @@ padding: 21px 25px 48px 40px;
     justify-content: space-between;
     overflow-y: auto;
    
+   
 
  }
     }
 
    
-    .menu-close-btn {
-
-    }
-    .mob-menu__list {
-        // margin-bottom: 302px;
-    }
+    
     
     .mob-menu__item {
         font-family: 'Roboto';
@@ -251,9 +247,7 @@ padding: 21px 25px 48px 40px;
     .mob-menu__item:last-child{
         margin-bottom: 0;
     }
-    .mob-menu__link {
-    }
-   
+  
     .mob-menu__studio {
         
 
@@ -292,9 +286,7 @@ color: #2196F3;
 font-size: 28px;
 color: #757575;
     }
-    .mob__item {
-        
-    }
+    
     .mob__link {
         font-family: 'Roboto';
 font-style: normal;
@@ -303,11 +295,7 @@ font-weight: 500;
 line-height: calc(40px / 34px);
 letter-spacing: 0.02em;
     }
-    .mob__icon {
-    }
-    
-    .mob__phone {
-    }
+   
     .mob-social__list {
         display: flex;
         flex-wrap: nowrap;
