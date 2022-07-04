@@ -642,6 +642,8 @@ img {
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
 }
 
 .mob-menu__item {
@@ -676,6 +678,7 @@ img {
 }
 
 .mob__link.mob__auth {
+  display: block;
   margin-bottom: 32px;
 }
 
