@@ -2,11 +2,19 @@
     border-bottom: 25px;
     margin: 0;
     border-bottom: 1px solid #ECECEC ;
+    position: relative;
+    .container.nav{
+        display: flex;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        align-items: center;
+       
+
+    }
 }
 .nav {
     @media screen and (min-width: 50px) and (max-width: 767px) {
-    padding-top: 16px;
-    padding-bottom: 16px;
+   
          
        }
 
@@ -192,11 +200,18 @@
  /* мобильное меню */
  .menu-open-btn, .menu-close-btn{
     display: block;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    width: 40px;
+    height: 40px;
     margin-left: auto;
  }
  .menu-close-btn{
     margin-bottom: 8px;
     fill: #212121;
+    
     
 
  }
@@ -227,6 +242,14 @@ padding: 21px 25px 48px 40px;
 
  }
     }
+    .mob-menu {
+        opacity: 1;
+        }
+        .mob-menu.is-hidden {
+            opacity: 0;
+            pointer-events: none;
+            visibility: hidden;
+          }
 
    
     
