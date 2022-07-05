@@ -33,6 +33,7 @@
     @media screen and (min-width: 1200px){
         display: flex;
         align-items: center;
+        margin-right: auto;
     }
 }
 
@@ -162,6 +163,12 @@
 
  }
  .nav__two{
+    @media screen and(min-width:1200px){
+        
+    
+    margin-right: 30px;
+ }}
+ .nav__two{
     @media screen and (max-width:768) {
         display: none;
     }
@@ -177,12 +184,13 @@
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         margin-left:auto;  
     }
+    @media screen and (min-width: 1200px) {
+ display: flex;
  
- }
+ }}
  .nav__auth{
     
-    @media screen and (min-width: 768px)
-{
+    @media screen and (min-width: 768px) and (max-width:1199px){
     display: block;
     margin-left: auto;
  }}
@@ -199,6 +207,15 @@
        @media screen  and (min-width: 768px) {
     
         display: inline-block;
+     
+         
+       }
+    
+ }
+ .nav__auth{
+    @media screen  and (min-width: 1200px) {
+    
+        display: flex;
      
          
        }

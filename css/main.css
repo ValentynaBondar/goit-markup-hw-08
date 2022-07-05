@@ -477,6 +477,7 @@ img {
   .nav {
     display: flex;
     align-items: center;
+    margin-right: auto;
   }
 }
 
@@ -587,6 +588,12 @@ img {
   margin-right: 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .nav__two {
+    margin-right: 30px;
+  }
+}
+
 @media screen and (max-width: 768) {
   .nav__two {
     display: none;
@@ -603,8 +610,13 @@ img {
     margin-left: auto;
   }
 }
+@media screen and (min-width: 1200px) {
+  .nav__group {
+    display: flex;
+  }
+}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .nav__auth {
     display: block;
     margin-left: auto;
@@ -623,6 +635,12 @@ img {
 @media screen and (min-width: 768px) {
   .nav__list.auth {
     display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav__auth {
+    display: flex;
   }
 }
 
@@ -859,7 +877,7 @@ img {
 
 /*блок герой*/
 .section {
-  max-width: 480px;
+  max-width: 100%;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -1373,19 +1391,16 @@ input:focus + .form__icon {
   display: flex;
 }
 
-.gallery__item {
-  width: 100%;
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .gallery__item {
+    width: calc((100% - 30px) / 2);
+  }
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-}
-@media screen and (min-width: 769px) and (max-width: 1199px) {
-  .gallery {
-    width: calc((100% - 30px) / 2);
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1498,6 +1513,11 @@ input:focus + .form__icon {
   margin-bottom: 60px;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer__blok {
+    text-align: start;
+  }
+}
 @media screen and (max-width: 450px) and (max-width: 767px) {
   .footer__blok {
     text-align: -webkit-center;
@@ -1544,6 +1564,11 @@ input:focus + .form__icon {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__grup {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
   .footer__grup {
     display: flex;
   }
@@ -1627,7 +1652,7 @@ input:focus + .form__icon {
 }
 @media screen and (min-width: 1200px) {
   .footer-form__container {
-    margin-left: 93px;
+    margin-left: auto;
   }
 }
 
