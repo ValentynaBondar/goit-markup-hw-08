@@ -97,6 +97,9 @@ background-color: #F5F4FA;
         margin-left: 276px;
           
         }
+        @media screen   and (max-width: 450px){
+            max-width: 200px;
+           }
     
       }
       .footer__button-icon{

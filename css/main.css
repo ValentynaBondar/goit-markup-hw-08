@@ -776,7 +776,7 @@ img {
 
 /*блок герой*/
 .section {
-  width: 480px;
+  max-width: 480px;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -824,6 +824,7 @@ img {
 @media screen and (max-width: 450px) {
   .section__title {
     max-width: 360px;
+    line-height: 1.61;
   }
 }
 
@@ -956,6 +957,11 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__button {
     margin-left: 276px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer__button {
+    max-width: 200px;
   }
 }
 
@@ -1363,12 +1369,12 @@ input:focus + .form__icon {
     padding-top: 60px;
   }
 }
-@media screen and (max-width: 1199px) and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .cntainer-footer {
     display: flex;
   }
 }
-@media screen and (max-width: 1199px) and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .cntainer-footer {
     display: flex;
   }
@@ -1390,6 +1396,7 @@ input:focus + .form__icon {
 }
 @media screen and (max-width: 450px) and (max-width: 767px) {
   .footer__blok {
+    text-align: -webkit-center;
     margin-bottom: 60px;
     margin-right: 0;
     flex-wrap: wrap;
@@ -1415,6 +1422,11 @@ input:focus + .form__icon {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .footer__social {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__social {
     margin-left: 165px;
@@ -1461,6 +1473,11 @@ input:focus + .form__icon {
     margin-bottom: 60px;
   }
 }
+@media screen and (max-width: 450px) {
+  .footer__list-social {
+    margin-bottom: 60px;
+  }
+}
 
 .footer__item {
   width: 44px;
@@ -1493,6 +1510,11 @@ input:focus + .form__icon {
   fill: var(--color-color);
 }
 
+@media screen and (max-width: 450px) {
+  .footer-form__container {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer-form__container {
     margin-left: 93px;
@@ -1501,25 +1523,31 @@ input:focus + .form__icon {
 
 .footer__input {
   display: inline-block;
-  width: 100%;
   height: 50px;
   color: #ffffff;
   background-color: var(--background-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 16px;
 }
-@media screen and (min-width: 450px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .footer__input {
-    width: 63.686%;
     margin-bottom: 20px;
+    max-width: 450px;
+    height: 50px;
     width: 450px;
     height: 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer__input {
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__input {
     margin-bottom: 20px;
     margin-left: 151px;
+    width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1820,6 +1848,8 @@ input:focus + .form__icon {
 .team {
   background-color: #F5F4FA;
   text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1945,13 +1975,35 @@ input:focus + .form__icon {
 }
 
 /*постоянные клиенты*/
-.company-clients {
+.company__clients {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+@media screen and (max-width: 450px) {
+  .company__clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 767px) {
+  .company__clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.company__title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .company__regular {
   margin-bottom: 30px;
+}
+
+.company__regular:last-child {
+  margin-bottom: 0px;
 }
 
 .company__title {
@@ -1972,7 +2024,6 @@ input:focus + .form__icon {
 @media screen and (min-width: 450px) and (max-width: 767px) {
   .company__title {
     font-size: 28px;
-    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1994,10 +2045,13 @@ input:focus + .form__icon {
 @media screen and (max-width: 450px) {
   .compani__item {
     margin-bottom: 30px;
+    font-size: 28px;
   }
   .compani__item .compani__item:last-child {
     margin-right: 0px;
-    font-size: 28px;
+  }
+  .compani__item .compani__link:last-child {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 450px) and (max-width: 767px) {
@@ -2067,10 +2121,4 @@ input:focus + .form__icon {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.company__title {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
