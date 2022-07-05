@@ -1,7 +1,13 @@
 .nav__logo.top{
-    margin-right: 93px;
+    margin-right: 88px;
     padding-top: 24px;
     padding-bottom: 24px;
+    @media screen and (min-width: 1200px){
+        margin-right: 93px; 
+    }
+    @media screen and (max-width: 768px) {
+       margin-right: 0px; 
+    }
 }
 
 .nav__logo.web{
