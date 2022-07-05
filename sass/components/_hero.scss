@@ -1,9 +1,4 @@
  
-
-
-
-
-
  /*блок герой*/
 
  .section{
@@ -30,6 +25,7 @@ height: 600px;
      }
      @media screen and (min-width: 768px) and (max-width: 1199px){
         width: 768px;
+        max-width: 768px;
      }
 
    
