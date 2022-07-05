@@ -97,8 +97,15 @@ height: 600px;
     background-color: var(--color-color);
     border-radius: 4px;
     padding:40px ;
-    
-    
+@media screen and (max-width:1199px) {
+   width: 450px;
+   height: 609px;
+} 
+
+@media screen and (max-width:479px){
+   width: 330px;
+   
+}
    
 
    

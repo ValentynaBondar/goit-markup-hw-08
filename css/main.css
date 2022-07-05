@@ -959,6 +959,17 @@ img {
   border-radius: 4px;
   padding: 40px;
 }
+@media screen and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .modal {
+    width: 330px;
+  }
+}
 
 .modal__icon {
   width: 11px;
@@ -1108,15 +1119,26 @@ img {
 /*--------------------------Form-----------------------------------*/
 textarea {
   resize: none;
-  width: 448px;
+  width: 370px;
   height: 120px;
   padding: 0;
   border: 0;
   outline: none;
   display: block;
 }
+@media screen and (min-width: 1200px) {
+  textarea {
+    width: 448px;
+  }
+}
+@media screen and (max-width: 479px) {
+  textarea {
+    max-width: 250px;
+  }
+}
 
 input {
+  width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
@@ -1200,6 +1222,12 @@ input {
   margin-left: 8px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+@media screen and (max-width: 1199px) {
+  .form__text {
+    font-size: 12px;
+    margin-left: 20px;
+  }
 }
 
 .form__text-treaty {
