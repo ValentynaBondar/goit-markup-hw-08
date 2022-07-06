@@ -27,6 +27,12 @@ background-color: #F5F4FA;
 /*модальное окно */
 
 .modal__botton{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
     width: 30px;
     height: 30px;
     position: absolute;

@@ -978,6 +978,7 @@ img {
 }
 
 .modal {
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1040,6 +1041,9 @@ img {
 
 /*модальное окно */
 .modal__botton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
   position: absolute;
