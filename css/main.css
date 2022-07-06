@@ -1157,7 +1157,7 @@ textarea {
 }
 @media screen and (max-width: 479px) {
   textarea {
-    max-width: 250px;
+    max-width: 100%;
   }
 }
 
