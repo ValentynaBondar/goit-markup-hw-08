@@ -426,8 +426,8 @@ img {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   img {
-    height: 374px;
     width: 354px;
+    max-width: 100%;
   }
 }
 /*СТРАНИЦА ПОРТФОЛИО*/
@@ -1044,6 +1044,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 3;
   width: 30px;
   height: 30px;
   position: absolute;
@@ -1470,6 +1471,9 @@ input:focus + .form__icon {
   display: flex;
 }
 
+.gallery__item {
+  border-bottom: 1px solid #EEEEEE;
+}
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .gallery__item {
     width: calc((100% - 30px) / 2);
@@ -1538,7 +1542,7 @@ input:focus + .form__icon {
   position: absolute;
   display: block;
   width: 100%;
-  height: 100%;
+  height: 101%;
   top: 0;
   text-align: left;
   left: 0;
@@ -1939,7 +1943,7 @@ input:focus + .form__icon {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-@media screen and (min-width: 450px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .content__picture {
     max-width: 450px;
     margin-top: 30px;
@@ -2110,7 +2114,7 @@ input:focus + .form__icon {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .team__photo:nth-child(2n) {
     margin-right: 0;
   }
