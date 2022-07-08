@@ -18,10 +18,10 @@
     gap: 15px 8px;
     margin-bottom: 40px;
    
-    @media screen and (max-width: 769px){
+    @media screen and (max-width: 767px){
         flex-wrap: wrap;
     }
-    @media screen and(min-width: 769px){
+    @media screen and(min-width: 768px){
         margin-bottom: 30px; 
         justify-content:center;
     }
@@ -48,7 +48,7 @@
 } 
 .gallery__item{
     border-bottom: 1px solid #EEEEEE;
-    @media screen and(min-width:769px)  and(max-width:1199px) {
+    @media screen and(min-width:768px)  and(max-width:1199px) {
         width: calc(( 100% - 30px ) / 2);
         
     }}
@@ -175,11 +175,11 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 @media screen and (max-width: 479px) {
     padding: 25px 24px; 
 }
-@media screen and (min-width: 478px) and (max-width: 768px) {
+@media screen and (min-width: 478px) and (max-width: 767px) {
     padding: 77px 24px; 
 }
 
-@media screen and (min-width: 769px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     padding: 49px 24px 77px 24px; 
 }
 
